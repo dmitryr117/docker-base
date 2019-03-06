@@ -7,7 +7,7 @@ ARG UBUNTU_VERSION
 ARG DEBUG=false
 
 LABEL description="Docker Base Image" os_version="Ubuntu ${UBUNTU_VERSION}" \
-      org.label-schema.vcs-ref=${VCS_REF} org.label-schema.vcs-url="https://github.com/dmitryr117/docker-base"
+      org.label-schema.vcs-ref=${VCS_REF} org.label-schema.vcs-url="https://github.com/dmitry/docker-base"
 
 ENV HOME /root
 ENV UBUNTU_VERSION ${UBUNTU_VERSION}

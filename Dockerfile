@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Madhav Raj Maharjan <madhav.maharjan@gmail.com>
+FROM ubuntu:18.04
+MAINTAINER Dmitry Dodetsky <colirs.developer@gmail.com>
 
 ARG VCS_REF
 ARG UBUNTU_VERSION
